@@ -1,0 +1,85 @@
+# 🎵 PROFESSIONAL MUSIC BOT - Requirements
+# Install dengan: pip install -r requirements.txt
+
+# ================================
+# 🤖 CORE TELEGRAM
+# ================================
+python-telegram-bot>=20.6
+
+# ================================
+# 🌐 HTTP & WEB SCRAPING
+# ================================
+aiohttp>=3.8.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# ================================
+# 🎵 PROFESSIONAL LYRICS APIS
+# ================================
+spotipy>=2.23.0  # Spotify API integration
+
+# ================================
+# 🎤 SPEECH-TO-TEXT (STT)
+# ================================
+openai-whisper>=20231117  # Audio transcription
+torch>=2.0.0              # PyTorch for Whisper
+torchaudio>=2.0.0         # Audio processing
+requests-oauthlib>=1.3.0  # OAuth for APIs
+urllib3>=2.0.0  # Enhanced HTTP
+
+# ================================
+# 📊 DATA & ENVIRONMENT
+# ================================
+python-dotenv>=1.0.0  # Environment variables
+aiofiles>=23.0.0  # Async file operations
+pytz>=2023.3  # Timezone handling
+
+# ================================
+# 🚀 PERFORMANCE & CACHING
+# ================================
+# redis>=4.5.0  # Uncomment for Redis caching
+# asyncpg>=0.28.0  # Uncomment for PostgreSQL
+
+# ================================
+# 🎤 AUDIO PROCESSING (Optional)
+# ================================
+# pydub>=0.25.0  # Audio manipulation
+# speech-recognition>=3.10.0  # Audio to text
+# ffmpeg-python>=0.2.0  # Audio conversion
+
+# ================================
+# 🤖 AI ENHANCEMENT (Optional)
+# ================================
+# openai>=0.28.0  # GPT integration for smart responses
+# transformers>=4.30.0  # Local AI models
+
+# ================================
+# 📈 ANALYTICS & MONITORING (Optional)
+# ================================
+# psutil>=5.9.0  # System monitoring
+# prometheus-client>=0.17.0  # Metrics collection
+
+# ================================
+# 🔧 DEVELOPMENT & TESTING
+# ================================
+# pytest>=7.4.0  # Testing framework
+# pytest-asyncio>=0.21.0  # Async testing
+# black>=23.0.0  # Code formatting
+# flake8>=6.0.0  # Code linting
+
+# ================================
+# 📊 PRODUCTION EXTRAS (Optional)
+# ================================
+# gunicorn>=21.0.0  # Production server
+# supervisor>=4.2.0  # Process management
+# nginx  # Reverse proxy (system package)
+
+# ================================
+# 🌍 COMPATIBILITY
+# ================================
+Brotli>=1.1.0  # Compression support
+schedule>=1.2.0  # Job scheduling
+# black>=23.0.0  # Code formatting
+# flake8>=6.0.0  # Linting
+# pytest>=7.0.0  # Testing
